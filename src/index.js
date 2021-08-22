@@ -2,7 +2,7 @@ import react from "react"
 import reactDom from "react-dom"
 import faker from "faker"
 import CommontDetail from "./CommentDetail"
-
+ 
 const App = () => {
   return (
     <div className="ui container comments">
