@@ -8,7 +8,7 @@ const CommontDetail = (props) => {
         <a href="/" className="avatar">
           <img
             style={{ marginLeft: "-10px" }}
-            src={faker.image.avatar()}
+            src= {props.image}
             alt="avatar"
           />
         </a>
