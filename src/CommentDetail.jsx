@@ -1,11 +1,10 @@
 import React from "react"
-import ApprovalCard from "./ApprovalCard"
 
 const CommontDetail = (props) => {
   return (
     <div className="comment">
       <a href="/" className="avatar">
-        <img style={{ marginLeft: "-10px" }} src={props.image} alt="avatar" />
+        <img style = {{marginLeft : "-10px"}} src={props.image} alt="avatar" />
       </a>
       <a href="/" className="author">
         {props.author}
